@@ -1,12 +1,14 @@
 import React from 'react'
 
+import StatusCard from '../components/status-card/StatusCard'
+
 import statusCards from '../assets/JsonData/status-card-data.json'
 
 const Dashboard = () => {
   return (
     <div>
       <h2 className="page-header">Dashboard</h2>  
-      <div className="ro">
+      <div className="row">
         <div className="col-6">
           <div className="row">
             {
@@ -14,9 +16,19 @@ const Dashboard = () => {
                 <div className="col-6">
                   {/* status card here */}
                   {item.title}
+                  <StatusCard
+                    icon={item.icon}
+                    count={item.count}
+                    title={item.title}
+                  />
                 </div>
               ))
             }
+          </div>
+        </div>
+        <div className="col-6">
+          <div className="card full-height">
+            {/* chart */}
           </div>
         </div>
       </div>    
