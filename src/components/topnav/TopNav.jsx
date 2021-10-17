@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 
 import Dropdown from '../dropdown/Dropdown'
 
+import ThemeMenu from '../thememenu/themeMenu'
+
 import notifications from '../../assets/JsonData/notification.json'
 
 import user_image from '../../assets/images/me.png'
@@ -71,7 +73,7 @@ const TopNav = () => {
           </div>
           <div className="topnav__right-item">
             {/* Theme setting */}
-            <Dropdown/>
+            <ThemeMenu/>
           </div>
       </div>
     </div>
