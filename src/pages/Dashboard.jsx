@@ -101,39 +101,39 @@ const latestOrders = {
   ],
   body: [
       {
-          id: "#OD1711",
-          user: "john doe",
-          date: "17 Jun 2021",
-          price: "$900",
-          status: "shipping"
-      },
-      {
-          id: "#OD1712",
-          user: "frank iva",
-          date: "1 Jun 2021",
-          price: "$400",
+          id: "#GRD147852",
+          user: "Daniel Carvalho",
+          date: "03 May 2017",
+          price: "$4900",
           status: "paid"
       },
       {
-          id: "#OD1713",
-          user: "anthony baker",
-          date: "27 Jun 2021",
-          price: "$200",
+          id: "#GRD124782",
+          user: "Guilherme Barreto",
+          date: "19 Jan 2020",
+          price: "$400",
+          status: "refund"
+      },
+      {
+          id: "#GRD785332",
+          user: "Sarah Morais",
+          date: "7 Dec 2019",
+          price: "$1200",
           status: "pending"
       },
       {
-          id: "#OD1712",
-          user: "frank iva",
-          date: "1 Jun 2021",
-          price: "$400",
+          id: "#GRD444652",
+          user: "Tatiana Rocha",
+          date: "29 Apr 2020",
+          price: "$1230",
           status: "paid"
       },
       {
-          id: "#OD1713",
-          user: "anthony baker",
-          date: "27 Jun 2021",
-          price: "$200",
-          status: "refund"
+          id: "#GRD194850",
+          user: "Marcos Eduardo",
+          date: "12 Aug 2018",
+          price: "$400",
+          status: "shipping"
       }
   ]
 }
