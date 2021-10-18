@@ -1,22 +1,22 @@
 [
     {
         "icon": "bx bx-error",
-        "content": "Curabitur id eros quis nunc suscipit blandit"
+        "content": "Please check your e-mail to valide your account"
     },
     {
         "icon": "bx bx-package",
-        "content": "Duis malesuada justo eu sapien elementum, in semper diam posuere"
+        "content": "Your product is ready to shipping, you will receive a tracking code in a few moments"
     },
     {
         "icon": "bx bx-cart",
-        "content": "Donec at nisi sit amet tortor commodo porttitor pretium a erat"
+        "content": "Checkout your cart to finish the order"
     },
     {
-        "icon": "bx bx-error",
-        "content": "In gravida mauris et nisi"
+        "icon": "bx bx-like",
+        "content": "Please rate your previous orders and share on your social media"
     },
     {
-        "icon": "bx bx-cart",
-        "content": "Curabitur id eros quis nunc suscipit blandit"
+        "icon": "bx bx-meteor",
+        "content": "New deals and hot offers"
     }
 ]

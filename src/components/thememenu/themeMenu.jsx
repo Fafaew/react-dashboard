@@ -111,7 +111,7 @@ const ThemeMenu = () => {
     return (
         <div>
             <button ref={menu_toggle_ref} className="dropdown__toggle" onClick={() => setActiveMenu()}>
-                <i className='bx bx-palette'></i>
+                <i className='bx bx-adjust'></i>
             </button>
             <div ref={menu_ref} className="theme-menu">
                 <h4>Theme settings</h4>
