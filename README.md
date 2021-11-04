@@ -53,7 +53,7 @@ Follow the following steps to get development environment running.
 * Install node modules
 
    ```bash
-   cd weather-location
+   cd react-dashboard
 
    npm install
    ```
